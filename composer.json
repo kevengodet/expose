@@ -1,0 +1,20 @@
+{
+    "name": "keven/expose",
+    "description": "Expose local web application to the Internet via usual providers",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["ssh", "tunnel", "ngrok", "localhost.run", "serveo"],
+    "authors": [
+        {
+            "name": "Keven",
+            "email": "hello@keven.fr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "Keven\\Expose\\": "src"
+    }
+}
